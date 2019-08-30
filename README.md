@@ -1,2 +1,4 @@
 # Machine_Learning_with_Python_Sklearn
 Machine Learning code samples using Python Sklearn library
+## （1）Feature selection with Scikit-Learn： Concatenating multiple feature extraction methods
+In many real-world examples, there are many ways to extract features from a dataset when we try to build models. Oftern it is helpful to combine several different methods to obtain good modeling performance. In this example, I'm using "FeatureUnion" to combine features obtained by PCA(Principal Component Analysis）and Univariate selection. Combining features using this transformer has the benefit that it allows cross validation and grid searches over the whole process. The combination used in this example is not particularly helpful on this dataset and is only used to illustrate the usage of FeatureUnion.
